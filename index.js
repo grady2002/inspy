@@ -1,7 +1,6 @@
 require("dotenv").config();
 const { Client, Intents } = require("discord.js");
 const axios = require("axios");
-const { persist } = require("./persist.js");
 
 const inspy = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
